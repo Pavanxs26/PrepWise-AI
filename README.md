@@ -27,6 +27,4 @@ git clone <repo-url>
 cd prepwise-ai
 npm install
 npm run dev
-cd prepwise-ai
-npm install
-npm run dev
+
