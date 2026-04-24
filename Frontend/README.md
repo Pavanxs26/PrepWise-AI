@@ -1,16 +1,30 @@
-# React + Vite
+# PrepWise AI — Interview & Resume Intelligence Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PrepWise AI is a full-stack application designed to assist users in interview preparation by analyzing resumes, identifying skill gaps, and generating AI-driven interview questions.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Resume analysis and skill extraction
+- AI-powered interview question generation
+- Skill gap detection based on job roles
+- Secure authentication using JWT with token blacklisting
+- Dynamic ATS-optimized resume generation (PDF)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 System Design Highlights
+- Structured AI workflow integrating external APIs (Gemini)
+- Modular frontend architecture using service layers and custom hooks
+- Secure session management with token invalidation
+- Backend pipeline for AI response processing and data handling
 
-## React Compiler
+## 🛠 Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- AI: Gemini API
+- PDF Generation: Puppeteer
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup
+```bash
+git clone <repo-url>
+cd prepwise-ai
+npm install
+npm run dev
